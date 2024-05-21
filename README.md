@@ -10,8 +10,23 @@ Website that tells you the location of the nearest e-waste collection and recycl
 Ministry of Environment
 
 ## Idea
-The Smart India Hackathon (SIH) Workshop aims to foster innovation and problem-solving skills among students by providing a platform to address real-world challenges. The workshop will guide participants through the process of identifying problems, brainstorming innovative solutions, and developing prototypes.
-
+1.Location-based Search: Allow users to search for e-waste facilities based on their
+current location or a specified address. This can be achieved using GPS technology or
+by entering location details manually. 2.Interactive Map View: Display e-waste facilities
+on an interactive map interface, allowing users to visually explore nearby options. Users
+can zoom in/out and click on map markers for more information about each facility.
+3.Filtering Options: Provide filtering options to narrow down search results based on
+criteria such as types of accepted electronics (e.g., computers, smartphones, batteries),
+facility types (recycling centers, drop-off locations), and operating hours. 4.Detailed
+Facility Information: Include detailed information about each e-waste facility, such as
+address, contact information, accepted items, operating hours, fees (if any), and any
+special instructions for drop-off. 5.User Reviews and Ratings: Allow users to leave
+reviews and ratings for e-waste facilities based on their experiences. This helps other
+users make informed decisions and provides feedback to facility operators. 6.Directions
+and Navigation: Integrate with navigation services (e.g., Google Maps) to provide stepby-step directions from the user's current location to the selected e-waste facility.
+7.Notification Alerts: Enable users to set up notification alerts for reminders about ewaste collection events, special recycling drives, or changes in facility operating hours.
+8.Educational Resources: Include educational resources about the importance of ewaste recycling, environmental impact, and tips for responsible disposal. This can help
+raise awareness and encourage more people to recycle their electronic devices.
 
 ## Proposed Solution / Architecture Diagram
 ![assese](https://github.com/KMSusindhar/SIHPS/assets/155904197/cbfd64b8-4186-4b82-b968-986bb14e1341)
@@ -22,20 +37,10 @@ The Smart India Hackathon (SIH) Workshop aims to foster innovation and problem-s
 
 
 ## Technology Stack
-The workshop will utilize the following technology stack to facilitate the development of solutions:
-
-Programming Languages: Python, JavaScript, Java
-Frameworks and Libraries: TensorFlow, React.js, Node.js
-Databases: PostgreSQL, MySQL
-Tools: Jupyter Notebook, GitHub for version control, Docker for containerization
-APIs: Geocoding API for geographical data, various public APIs for additional data
+Google Maps Platform: Google Maps API provides mapping and geolocation services
+for integrating interactive maps, geocoding, and routing functionalities into the locator
+application. The Places API can be used to search for nearby e-waste facilities based on
+user location and display detailed information about each facility.
 
 ## Dependencies
-To ensure the smooth running of the workshop, the following dependencies are necessary:
-
-Hardware: Laptops/desktops with adequate processing power and memory
-Software: Pre-installed software including IDEs, database systems, and necessary libraries/frameworks
-Internet Access: Reliable internet connection for accessing online resources and APIs
-Logistics: Arrangements for venue, refreshments, and materials for participants
-Expertise: Availability of mentors and experts in relevant fields to guide participants
-
+Mapping Services – 10 Days,Data Collection – 18 Days,Estimated Budget – Rs.30,0000
